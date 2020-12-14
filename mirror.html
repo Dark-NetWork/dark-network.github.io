@@ -1,5 +1,8 @@
 <?php
-
-$url = "https://github.com/Dark-NetWork/";
-
-echo '<base href="'.$url.'" />' . file_get_contents($url);
+echo '<style>
+  body {background-color:grey;
+    }
+</style>';
+$root = file_get_contents("https://github.com/Dark-NetWork/");
+print $root
+?>
