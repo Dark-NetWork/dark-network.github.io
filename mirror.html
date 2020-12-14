@@ -1,14 +1,5 @@
 <?php
 
-// create a new cURL resource
-$ch = curl_init();
+$url = "https://github.com/Dark-NetWork/";
 
-// set URL and other appropriate options
-curl_setopt($ch, CURLOPT_URL, "https://github.com/Dark-NetWork/");
-curl_setopt($ch, CURLOPT_HEADER, 0);
-
-curl_exec($ch);
-
-curl_close($ch);
-
-?>
+echo '<base href="'.$url.'" />' . file_get_contents($url);
