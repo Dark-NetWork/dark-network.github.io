@@ -1,5 +1,5 @@
 # dark-network.github.io
 
-Dark NetWork Official Website
+Dark Network Official Website
 
-# Dark-NetWork
+# Dark-Network
